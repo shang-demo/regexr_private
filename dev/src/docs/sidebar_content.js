@@ -113,6 +113,9 @@ home.kids = [
 				"<p>通过点击<b>文本</b>面板上方的开关来使用此功能。当你点击保存时，文本和测试都将保存。</p>"
 			},
 			{
+				label:"工具面板",
+				desc:"单击<b>文本</b> 面板下方的<b>工具</b> 标题栏以显示或隐藏<b>工具</b> 面板."+
+				"<p>Tools provide different ways of working with or exploring your results.</p>",
 			kids: [
 				{
 				label:"替换",

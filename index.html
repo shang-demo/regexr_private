@@ -56,6 +56,31 @@
 	<meta name="twitter:description" content="RegExr 是一个集 学习、构建 和 测试 正则表达式 (Regular Expressions / RegEx / RegExp)于一身的在线工具。"/>
 	<meta name="twitter:image" content="http://regexr.skys215.com/assets/card.png"/>
 	<meta name="twitter:url" content="http://regexr.skys215.com/" />
+
+	<style>
+		body > div.container > div > aside > div.full.no-search > ul {
+			flex: none;
+		}
+		/* 左上角标题 */
+		body > div.container > header > div > span,
+		body > div.container > header > div > svg,
+		body > div.container > header > ul.file > li.save.disabled,
+
+		/* 右上角菜单 */
+		body > div.container > header > ul.etc > li:not(:nth-child(1)),
+		/* 左边菜单 */
+		body > div.container > div > aside > div.full.no-search > ul > li[data-id="share"],
+		body > div.container > div > aside > div.full.no-search > ul > li[data-id="favorites"],
+		body > div.container > div > aside > div.full.no-search > ul > li[data-id="cheatsheet"],
+		body > div.container > div > aside > div.full.no-search > ul > li[data-id="community"],
+		body > div.container > div > aside > div.full.no-search > ul > li[data-id="signin"],
+		body > div.container > div > aside > div.full.no-search > ul > li[data-id="engine"],
+		body > div.container > div > aside > div.full.no-search > ul > li[data-id="__id_10"],
+		/* 左下角说明 */
+		body > div.container > div > aside > div.full.no-search > div.hello {
+			display: none;
+		}
+	</style>
 </head>
 
 <body>
@@ -64,7 +89,7 @@
 	</div>
 	<div class="container">
 		<header class="header">
-			<svg class="icon logo inline"><use xlink:href="#RegExr"></use></svg>
+			<svg class="icon logo inline" onclick="location.href='https://github.com/gskinner/regexr/'"><use xlink:href="#RegExr"></use></svg>
 			<div class="settings">
 				<span class="name">新建表达式</span>
 				<svg class="icon share"><use xlink:href="#share"><title>表达式设置</title></use></svg>
